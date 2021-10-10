@@ -16,7 +16,9 @@ navbarToggle.addEventListener('click', function() {
 });
 
 function date() {
-    document.querySelector('footer').innerHTML = new Date();
+    var d = new Date();
+    var dt = d.toString();
+    document.querySelector('footer').innerHTML = dt.slice(0, 24);
 }
 
 setInterval(date, 1000);
