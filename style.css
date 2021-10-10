@@ -91,19 +91,21 @@ input[type=submit]:hover {
 
 /* contact End */
 
-.home
-.intro,
+.home .intro,
 .education,
 .projects {
     margin-top: 10px;
     padding: 20px;
 }
-.home h1{
+
+.home h1 {
     margin-bottom: .7em;
 }
-.home h2{
+
+.home h2 {
     margin-bottom: .7em;
 }
+
 .intro h1 {
     margin-bottom: 1.5em;
 }
@@ -149,8 +151,26 @@ ul {
     margin: 0 5px;
 } */
 
+.about a {
+    text-decoration: none;
+    color: black;
+}
+
+.about a:hover {
+    color: crimson;
+}
+
 
 /* EDUCATION */
+
+.education a {
+    text-decoration: none;
+    color: black;
+}
+
+.education a:hover {
+    color: crimson;
+}
 
 .education .projects {
     margin: 10px;
