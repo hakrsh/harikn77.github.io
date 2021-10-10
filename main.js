@@ -29,10 +29,3 @@ load = (id) => {
     if (id === 'logo') document.getElementById('one').style.display = 'Block';
     else document.getElementById(divIds[id]).style.display = 'Block';
 }
-
-// const navLinks = document.querySelectorAll('.nav-links')
-// const menuToggle = document.getElementById('navbar-toggle')
-// const nav = document.getElementById('main-nav')
-// navLinks.forEach((l) => {
-//     l.addEventListener('click', () => { nav.style.display='none' })
-// })
